@@ -1,5 +1,2 @@
-const parser = (data, format) => {
-    if (format === 'json')
-    return JSON.parse(data);
-  };
+const parser = (data, format) => (format === 'json' ? JSON.parse(data) : false);
 export default parser;
