@@ -9,9 +9,11 @@ const __dirname = dirname(__filename);
 const getFixturePath = (filename) => path.join(__dirname, '..', '__fixtures__', filename);
 const readFile = (filename) => fs.readFileSync(getFixturePath(filename), 'utf-8');
 
-test('Comparing flat JSON files', () => {
-  const file1path = getFixturePath('file1.json');
-  const file2path = getFixturePath('file2.json');
+const fileExtensions = ['json', 'yaml', 'yml'];
+
+test.each(fileExtensions)('Comparing flat JSON files', (format) => {
+  const file1path = getFixturePath(`file1${format}`);
+  const file2path = getFixturePath(`file2${format}`);
   const result = readFile('resultDiff.txt');
   expect(genDiff(file1path, file2path)).toEqual(result);
 });
