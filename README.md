@@ -6,3 +6,5 @@
 [![asciicast](https://asciinema.org/a/QjquMpEcfMYwI90hvycGcPyFy.svg)](https://asciinema.org/a/QjquMpEcfMYwI90hvycGcPyFy)
 ### Compare two YAML files
 [![asciicast](https://asciinema.org/a/S8NVWqiQYXI6SuvurvrW4aUr3.svg)](https://asciinema.org/a/S8NVWqiQYXI6SuvurvrW4aUr3)
+### Comparison two files with recursive structure in format 'stylish'
+[![asciicast](https://asciinema.org/a/7g5LkMA3Ni39uVIXchwPy0nUV.svg)](https://asciinema.org/a/7g5LkMA3Ni39uVIXchwPy0nUV)
