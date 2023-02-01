@@ -8,3 +8,5 @@
 [![asciicast](https://asciinema.org/a/S8NVWqiQYXI6SuvurvrW4aUr3.svg)](https://asciinema.org/a/S8NVWqiQYXI6SuvurvrW4aUr3)
 ### Comparison two files with recursive structure in format 'stylish'
 [![asciicast](https://asciinema.org/a/7g5LkMA3Ni39uVIXchwPy0nUV.svg)](https://asciinema.org/a/7g5LkMA3Ni39uVIXchwPy0nUV)
+### Comparison two files with recursive structure in format 'plain'
+[![asciicast](https://asciinema.org/a/52sf0iwiwXoxUGOR5VBnDWipP.svg)](https://asciinema.org/a/52sf0iwiwXoxUGOR5VBnDWipP)
