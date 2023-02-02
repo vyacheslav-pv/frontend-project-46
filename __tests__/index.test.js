@@ -24,3 +24,10 @@ test.each(fileExtensions)('Comparing two files for "plain" format', (format) => 
   const result = readFile('resultPlain.txt');
   expect(genDiff(file1path, file2path, 'plain')).toEqual(result);
 });
+
+test.each(fileExtensions)('Comparing two files for "json" format', (format) => {
+  const file1path = getFixturePath(`file1.${format}`);
+  const file2path = getFixturePath(`file2.${format}`);
+  const result = readFile('resultJson.txt');
+  expect(genDiff(file1path, file2path, 'json')).toEqual(result);
+});
