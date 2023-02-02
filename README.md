@@ -10,3 +10,5 @@
 [![asciicast](https://asciinema.org/a/7g5LkMA3Ni39uVIXchwPy0nUV.svg)](https://asciinema.org/a/7g5LkMA3Ni39uVIXchwPy0nUV)
 ### Comparison two files with recursive structure in format 'plain'
 [![asciicast](https://asciinema.org/a/52sf0iwiwXoxUGOR5VBnDWipP.svg)](https://asciinema.org/a/52sf0iwiwXoxUGOR5VBnDWipP)
+### Comparison two files with recursive structure in format 'json'
+[![asciicast](https://asciinema.org/a/RbxpWclnHydCEX7MmVVsrrmHc.svg)](https://asciinema.org/a/RbxpWclnHydCEX7MmVVsrrmHc)
